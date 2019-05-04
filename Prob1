@@ -1,0 +1,49 @@
+#include <iostream>
+#include <iomanip>
+#include <conio.h>
+
+using namespace std;
+int main()
+{
+	int P, A, B, C;
+	
+	
+	cout <<"Types of packages: "<<endl<<"Package 1: P995/mo 10hrs access, additional P20/hr."<<endl<<"Package 2: P1495/mo 20hrs access, additional P10/hr"<<endl<<"Package 3: P1995/mo, Unlimited Access"<<endl;
+
+	cout <<endl<<"What kind of package did you purchased? "; cin >> A;
+	cout <<"How many hours were used? ";cin >> B;
+
+
+	
+	
+	
+	if (A == 1 && B>10)
+	{
+	C = B - 10;
+	cout << "Your monthly bill is "<< C * 20 + 995;				
+	}	
+	else if (A == 1 && B<=10)
+	cout <<"Your monthly bill is P995.";
+	
+	else if (A == 2 && B > 20)
+	{
+		C = B - 20;
+		cout <<  "Your monthly bill is P"<< C * 10 + 1495;
+	}
+	else if (A == 2 && B <= 20)
+	cout <<"Your monthly bill is P1495.";
+		
+	else if (A == 3)
+		cout <<  "Your monthly bill is P1995";
+
+	else 
+		cout <<	 "You did not choose the correct package!";
+	
+	
+
+    
+			
+	_getch();
+	return 0;
+		
+}
