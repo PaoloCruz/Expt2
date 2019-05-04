@@ -1,0 +1,25 @@
+#include <iostream>
+#include <conio.h>
+
+using namespace std;
+
+int main()
+{
+	int a,b;
+	
+	for (a=1; a<=10; a++)
+	{
+	cout << a <<",";
+	}
+	
+	for (a=12; a<=28;)
+	{
+	cout << a <<",";
+	a = a + 2;
+	}
+	cout <<a;
+	
+  _getch();
+	return 0;
+			
+}
