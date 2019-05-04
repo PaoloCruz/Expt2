@@ -1,0 +1,28 @@
+#include <iostream>
+#include <iomanip>
+#include <conio.h>
+
+using namespace std;
+
+int main()
+
+{
+
+float a, b, c, d, e,f;
+
+	cout<<"Enter consumption based on the readings from the recent and previous month in gallons respectively: ";cin>>a>>b;
+	cout<<"Enter total balance: ";cin>>e;
+	c= (a-b)*1.1;
+	d= c+35;
+	f= e - d;
+	
+	if(f>0)
+	cout <<"Your water bill is "<<d + 20 + f;
+	
+	else
+	cout <<"Your water bill is "<<d;
+	
+	_getch();
+	return 0;
+	
+}
