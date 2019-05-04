@@ -1,0 +1,23 @@
+#include <iostream>
+#include <conio.h>
+
+using namespace std;
+
+int main()
+{
+	int a, b ,c;
+	cout << "Enter first number: ";cin >> a;
+	cout << "Enter second number: ";cin >>b;
+	cout << "Enter third number: ";cin >> c;
+	
+	if (a >= b && a >= c)
+	cout << "The LARGEST number is "<< a<<".";
+	else if (b >= a && b >= c)
+	cout << "The LARGEST number is "<< b<<".";
+	else
+	cout << "The LARGEST number is "<< c<<".";
+
+	_getch();
+	return 0;
+			
+}
