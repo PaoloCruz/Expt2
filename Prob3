@@ -8,8 +8,8 @@ using namespace std;
 
 int main()
 {
-	int x,y;
-	float V,z, A;
+	int x;
+	float V,z, A, y;
 	z = 2.5;
 		cout << "Input x: "; cin >>x;
 		cout << "Input y: "; cin >>y;
