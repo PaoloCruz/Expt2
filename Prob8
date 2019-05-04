@@ -1,0 +1,19 @@
+#include <iostream>
+#include <conio.h>
+using namespace std;
+
+int main()
+{
+	int a,b,c;
+	
+		cout <<"Input a number: ";cin>>a;
+		cout <<"Multiplication table of "<<a<<":"<<endl;
+		for(b=1;b<=10;b++)
+		{
+		c= b * a;
+		cout <<b<<" * "<<a<<" = "<<c<<endl;
+		}
+
+  _getch();
+	return 0;						
+}
